@@ -1,0 +1,2 @@
+# for the api version control
+springfox.documentation.swagger.v2.path: /swagger

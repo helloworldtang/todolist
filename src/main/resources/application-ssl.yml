@@ -1,0 +1,31 @@
+server:
+  port: 8443
+  ssl:
+    key-store: ./todolist/lpp.jks
+    key-store-password: letmein
+    key-store-type: JKS
+    key-alias: tomcat
+
+
+#keytool -keystore lpp.jks -genkey -alias tomcat -keyalg RSA
+#输入密钥库口令:
+#密钥库口令太短 - 至少必须为 6 个字符
+#输入密钥库口令:
+#再次输入新口令:
+#您的名字与姓氏是什么?
+#  [Unknown]:  tang
+#您的组织单位名称是什么?
+#  [Unknown]:  family
+#您的组织名称是什么?
+#  [Unknown]:  home
+#您所在的城市或区域名称是什么?
+#  [Unknown]:  sh
+#您所在的省/市/自治区名称是什么?
+#  [Unknown]:  sh
+#该单位的双字母国家/地区代码是什么?
+#  [Unknown]:  cn
+#CN=tang, OU=family, O=home, L=sh, ST=sh, C=cn是否正确?
+#  [否]:  y
+#
+#输入 <tomcat> 的密钥口令
+#        (如果和密钥库口令相同, 按回车):

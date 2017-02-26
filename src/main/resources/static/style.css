@@ -1,6 +1,6 @@
 body {
-    backgroud-color: #ccc;
-    fond-family: arial, helvetica, sans-serif;
+    background-color: #cccccc;
+    font-family: Arial, "Helvetica Neue", sans-serif;
 }
 
 .bookHeadline {
@@ -14,4 +14,5 @@ body {
 
 label {
     font-weight: bold;
+    column-width: 60px;
 }
