@@ -1,7 +1,7 @@
 #If you want to write log files in addition to the console output you need to set a logging.file or logging.path property
 spring:
   profiles:
-    active: dev,swagger,actuator,ssl
+    active: dev,swagger,actuator,ssl,tomcat
 logging:
   file: logs/todo.log
   level:

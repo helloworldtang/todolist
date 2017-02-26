@@ -1,0 +1,9 @@
+server:
+  tomcat:
+    max-threads: 50
+    accesslog:
+      enabled: true
+  compression:
+    enabled: true
+security:
+  require-ssl: true
