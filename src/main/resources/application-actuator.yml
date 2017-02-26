@@ -1,0 +1,12 @@
+# curl -X post http://localhost/shutdown  return  "message": "Shutting down, bye..."
+#Full authentication is required to access actuator endpoints.
+#Consider adding Spring Security or set 'management.security.enabled' to false.
+#默认情况下，所有端点（除/shutdown）都启用
+management:
+  security:
+    enabled: false
+  context-path: /lpp
+endpoints:
+    enabled: true
+    shutdown:
+      enabled: true
