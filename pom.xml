@@ -58,6 +58,40 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
+        <!--http://localhost/actuator endpoint-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-hateoas</artifactId>
+        </dependency>
+
+        <!--with a web UI to learn actuator-->
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>hal-browser</artifactId>
+        </dependency>
+
+        <!--http://localhost/docs-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-actuator-docs</artifactId>
+        </dependency>
+        <!--
+        Using default password for shell access: ec03e16c-4cf4-49ee-b745-7c8255c1dd7e
+        ssh -p 2000 user@127.0.0.1
+         help-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-remote-shell</artifactId>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.crsh/crsh.shell.telnet -->
+        <dependency>
+            <groupId>org.crsh</groupId>
+            <artifactId>crsh.shell.telnet</artifactId>
+            <version>1.2.11</version>
+        </dependency>
+
+
         <!--Swagger2-->
         <dependency>
             <groupId>io.springfox</groupId>

@@ -10,3 +10,5 @@ endpoints:
     enabled: true
     shutdown:
       enabled: true
+    health:
+      time-to-live: 500 #ttl ms

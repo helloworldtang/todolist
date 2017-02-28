@@ -1,0 +1,9 @@
+management:
+  shell:
+    ssh:
+      port: 2000
+    auth:
+      simple:
+        user:
+          name: admin
+          password: 123456
