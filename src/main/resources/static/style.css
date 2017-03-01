@@ -1,6 +1,14 @@
 body {
-    background-color: #cccccc;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: #ccc;
     font-family: Arial, "Helvetica Neue", sans-serif;
+}
+
+.errorPage {
+    top: 100px;
+    margin: auto;
 }
 
 .bookHeadline {

@@ -15,7 +15,7 @@ import java.util.List;
  * Created by tangcheng on 2017/2/25.
  */
 @Controller
-@RequestMapping(value = "/")
+@RequestMapping(value = "/todo")
 public class ReadingListController {
 
     @Autowired

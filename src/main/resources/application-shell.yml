@@ -6,4 +6,4 @@ management:
       simple:
         user:
           name: admin
-          password: 123456
+          password: remote-shell
