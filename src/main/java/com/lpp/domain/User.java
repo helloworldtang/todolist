@@ -25,10 +25,10 @@ public class User {
     @JsonBackReference//防止关系对象的递归访问
     private Department department;
 
-    @ManyToOne(cascade = {}, fetch = FetchType.EAGER)
+    @ManyToMany(fetch = FetchType.EAGER)
     @JoinTable(name = "user_role",
-            joinColumns = {@JoinColumn(name = "user_id")},
-            inverseJoinColumns = {@JoinColumn(name = "role_id")})
+            joinColumns = {@JoinColumn(name = "user_id", referencedColumnName = "ID")},
+            inverseJoinColumns = {@JoinColumn(name = "role_id", referencedColumnName = "ID")})
     //中间表user_role来存在各自的id,以表示它们的对应关系
     private List<Role> roles;
 
